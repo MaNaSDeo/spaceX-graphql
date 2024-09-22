@@ -1,5 +1,11 @@
+import PastLaunches from "./Components/PastLaunches";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <PastLaunches />
+    </div>
+  );
 };
 
 export default App;
